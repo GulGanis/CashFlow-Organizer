@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE0C411E2A05587800AD871F /* Electrolize-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE0C411D2A05587800AD871F /* Electrolize-Regular.ttf */; };
+		CE4B35A029FC5A6F005C274D /* Tr2n.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE4B359F29FC5A6F005C274D /* Tr2n.ttf */; };
+		CE8EA32C29FC6B8300BF5227 /* Blox2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE8EA32B29FC6B8300BF5227 /* Blox2.ttf */; };
+		CEBB8F0829FB168000D0F3FE /* callendarTrainsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB8F0729FB168000D0F3FE /* callendarTrainsApp.swift */; };
+		CEBB8F0A29FB168000D0F3FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB8F0929FB168000D0F3FE /* ContentView.swift */; };
+		CEBB8F0C29FB168100D0F3FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBB8F0B29FB168100D0F3FE /* Assets.xcassets */; };
+		CEBB8F0F29FB168100D0F3FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBB8F0E29FB168100D0F3FE /* Preview Assets.xcassets */; };
+		CEBB8F1629FBDA0200D0F3FE /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB8F1529FBDA0200D0F3FE /* Colors.swift */; };
+		CEBB8F1829FBFBE200D0F3FE /* Sketch Gothic School.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEBB8F1729FBFBE200D0F3FE /* Sketch Gothic School.ttf */; };
+		CEBB8F1D29FBFCF600D0F3FE /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEBB8F1B29FBFCF600D0F3FE /* DataModel.xcdatamodeld */; };
+		CEBB8F1F29FC006D00D0F3FE /* Vampire Wars.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEBB8F1E29FC006C00D0F3FE /* Vampire Wars.ttf */; };
+		CEBB8F2129FC016C00D0F3FE /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB8F2029FC016C00D0F3FE /* DataModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE0C411D2A05587800AD871F /* Electrolize-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Electrolize-Regular.ttf"; sourceTree = "<group>"; };
+		CE4B359F29FC5A6F005C274D /* Tr2n.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tr2n.ttf; sourceTree = "<group>"; };
+		CE8EA32B29FC6B8300BF5227 /* Blox2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Blox2.ttf; sourceTree = "<group>"; };
+		CEBB8F0429FB168000D0F3FE /* callendarTrains.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = callendarTrains.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBB8F0729FB168000D0F3FE /* callendarTrainsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = callendarTrainsApp.swift; sourceTree = "<group>"; };
+		CEBB8F0929FB168000D0F3FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEBB8F0B29FB168100D0F3FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEBB8F0E29FB168100D0F3FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEBB8F1529FBDA0200D0F3FE /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		CEBB8F1729FBFBE200D0F3FE /* Sketch Gothic School.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sketch Gothic School.ttf"; sourceTree = "<group>"; };
+		CEBB8F1A29FBFC1900D0F3FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CEBB8F1C29FBFCF600D0F3FE /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		CEBB8F1E29FC006C00D0F3FE /* Vampire Wars.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Vampire Wars.ttf"; sourceTree = "<group>"; };
+		CEBB8F2029FC016C00D0F3FE /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEBB8F0129FB168000D0F3FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEBB8EFB29FB168000D0F3FE = {
+			isa = PBXGroup;
+			children = (
+				CEBB8F0629FB168000D0F3FE /* callendarTrains */,
+				CEBB8F0529FB168000D0F3FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEBB8F0529FB168000D0F3FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEBB8F0429FB168000D0F3FE /* callendarTrains.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEBB8F0629FB168000D0F3FE /* callendarTrains */ = {
+			isa = PBXGroup;
+			children = (
+				CEBB8F1A29FBFC1900D0F3FE /* Info.plist */,
+				CEBB8F1929FBFBF200D0F3FE /* Fonts */,
+				CEBB8F0729FB168000D0F3FE /* callendarTrainsApp.swift */,
+				CEBB8F0929FB168000D0F3FE /* ContentView.swift */,
+				CEBB8F2229FC039500D0F3FE /* DataControl */,
+				CEBB8F0B29FB168100D0F3FE /* Assets.xcassets */,
+				CEBB8F1529FBDA0200D0F3FE /* Colors.swift */,
+				CEBB8F0D29FB168100D0F3FE /* Preview Content */,
+			);
+			path = callendarTrains;
+			sourceTree = "<group>";
+		};
+		CEBB8F0D29FB168100D0F3FE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CEBB8F0E29FB168100D0F3FE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEBB8F1929FBFBF200D0F3FE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CE4B359F29FC5A6F005C274D /* Tr2n.ttf */,
+				CEBB8F1E29FC006C00D0F3FE /* Vampire Wars.ttf */,
+				CE8EA32B29FC6B8300BF5227 /* Blox2.ttf */,
+				CE0C411D2A05587800AD871F /* Electrolize-Regular.ttf */,
+				CEBB8F1729FBFBE200D0F3FE /* Sketch Gothic School.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CEBB8F2229FC039500D0F3FE /* DataControl */ = {
+			isa = PBXGroup;
+			children = (
+				CEBB8F2029FC016C00D0F3FE /* DataModel.swift */,
+				CEBB8F1B29FBFCF600D0F3FE /* DataModel.xcdatamodeld */,
+			);
+			path = DataControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEBB8F0329FB168000D0F3FE /* callendarTrains */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBB8F1229FB168100D0F3FE /* Build configuration list for PBXNativeTarget "callendarTrains" */;
+			buildPhases = (
+				CEBB8F0029FB168000D0F3FE /* Sources */,
+				CEBB8F0129FB168000D0F3FE /* Frameworks */,
+				CEBB8F0229FB168000D0F3FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = callendarTrains;
+			productName = callendarTrains;
+			productReference = CEBB8F0429FB168000D0F3FE /* callendarTrains.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEBB8EFC29FB168000D0F3FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CEBB8F0329FB168000D0F3FE = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = CEBB8EFF29FB168000D0F3FE /* Build configuration list for PBXProject "callendarTrains" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEBB8EFB29FB168000D0F3FE;
+			productRefGroup = CEBB8F0529FB168000D0F3FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEBB8F0329FB168000D0F3FE /* callendarTrains */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEBB8F0229FB168000D0F3FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8EA32C29FC6B8300BF5227 /* Blox2.ttf in Resources */,
+				CEBB8F0F29FB168100D0F3FE /* Preview Assets.xcassets in Resources */,
+				CE4B35A029FC5A6F005C274D /* Tr2n.ttf in Resources */,
+				CEBB8F1F29FC006D00D0F3FE /* Vampire Wars.ttf in Resources */,
+				CEBB8F1829FBFBE200D0F3FE /* Sketch Gothic School.ttf in Resources */,
+				CEBB8F0C29FB168100D0F3FE /* Assets.xcassets in Resources */,
+				CE0C411E2A05587800AD871F /* Electrolize-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEBB8F0029FB168000D0F3FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBB8F2129FC016C00D0F3FE /* DataModel.swift in Sources */,
+				CEBB8F0A29FB168000D0F3FE /* ContentView.swift in Sources */,
+				CEBB8F1D29FBFCF600D0F3FE /* DataModel.xcdatamodeld in Sources */,
+				CEBB8F1629FBDA0200D0F3FE /* Colors.swift in Sources */,
+				CEBB8F0829FB168000D0F3FE /* callendarTrainsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CEBB8F1029FB168100D0F3FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEBB8F1129FB168100D0F3FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEBB8F1329FB168100D0F3FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"callendarTrains/Preview Content\"";
+				DEVELOPMENT_TEAM = QW6DP5F85H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = callendarTrains/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.myApps.swift.callendarTrains;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEBB8F1429FB168100D0F3FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"callendarTrains/Preview Content\"";
+				DEVELOPMENT_TEAM = QW6DP5F85H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = callendarTrains/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.myApps.swift.callendarTrains;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEBB8EFF29FB168000D0F3FE /* Build configuration list for PBXProject "callendarTrains" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBB8F1029FB168100D0F3FE /* Debug */,
+				CEBB8F1129FB168100D0F3FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBB8F1229FB168100D0F3FE /* Build configuration list for PBXNativeTarget "callendarTrains" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBB8F1329FB168100D0F3FE /* Debug */,
+				CEBB8F1429FB168100D0F3FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CEBB8F1B29FBFCF600D0F3FE /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CEBB8F1C29FBFCF600D0F3FE /* DataModel.xcdatamodel */,
+			);
+			currentVersion = CEBB8F1C29FBFCF600D0F3FE /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CEBB8EFC29FB168000D0F3FE /* Project object */;
+}
